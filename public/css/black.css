@@ -1,0 +1,76 @@
+#black {
+    background-image: url('../images/balloons.png'), url('../images/black-bg.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 23rem, cover;
+    background-position: top right, center;
+    background-attachment: fixed, unset;
+    height: 500px;
+}
+
+#black p {
+    color: white;
+}
+
+#black h2 {
+    font-family: 'Bevan', cursive;
+}
+
+.card-body {
+    background-color: #171717;
+    color: white;
+}
+
+.card-header {
+    background-color: #e38cb7;
+}
+
+.card-header h4 {
+    color: black;
+}
+
+.btn-primary {
+    background-color: #e38cb7;
+}
+
+.card {
+    box-shadow: 1px 1px 15px 5px black;
+    border: none;
+}
+
+.balloon {
+    background-image: url('../images/balloon.png');
+    background-repeat: space;
+    background-size: 12rem;
+    background-position: left center;
+    background-attachment: fixed;
+}
+
+.deal {
+    font-size: x-large;
+}
+
+
+@media (max-width: 1199px) {
+    #black h2 {
+        font-size: 4rem !important;
+    }
+}
+@media (max-width: 900px) {
+    #black h2 {
+        font-size: 3.5rem !important;
+    }
+}
+.testimonial-h {
+    font-family: 'Lobster Two', cursive;
+}
+
+.bg-primary{
+    background-color: #e38cb7 !important;
+}
+
+.testimonial-sh{
+    font-family: 'Boogaloo', cursive;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.8rem;
+}

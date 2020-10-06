@@ -1,0 +1,56 @@
+@import '../style.css';
+
+#logo {    
+    font-size: 1.3rem;
+}
+
+
+body {
+    padding-top: 56px;
+  }
+  
+.navbar-nav .nav-link {    
+    color: white !important;
+}
+
+.btn{
+    font-size: 1.3rem;
+}
+
+.card-img-top{
+    max-height: 600px;
+
+}
+
+.fa-user{
+    font-size: x-small;
+  }
+
+  .btn-primary{
+    background-color: #e38cb7;
+    border-color: #e38cb7;
+}
+.btn-primary:hover{
+    background-color: #e38cb7a8;
+    border-color: #e38cb7a8;
+}
+
+.list-group-item.active{
+    background-color: #e38cb7a8;
+    border-color: #e38cb7a8;
+    z-index:100;
+}
+
+.instagram{
+    color: #e38cb7a8;
+}
+
+.comment{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.3rem;
+}

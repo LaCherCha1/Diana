@@ -1,0 +1,26 @@
+.text-muted {
+    font-size: 20px;
+}
+
+.bonus {
+    height: 380px;
+}
+
+.seleccionar {
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 1px 1px 15px 5px #f2e1df;
+    border: none;
+    height: 650px;
+}
+
+
+.card .card-header{
+    background-color: #f2e1df;
+}
+
+.section{
+    margin-top: 5rem;
+}
