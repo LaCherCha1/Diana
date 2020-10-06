@@ -50,7 +50,7 @@
                             <input type="submit" class="seleccionar btn btn-lg btn-block btn-primary" border="0"
                                 value="Seleccionar" name="submit" alt="Pago Completo">
                         </form> --}}
-                        <a class="btn btn-lg btn-block btn-primary" href="{{ route('crear-pago') }}">Seleccionar</a>
+                        <a class="btn btn-lg btn-block btn-primary" href="{{ URL('create-payment') }}">Seleccionar</a>
                     </div>
                 </div>
             </div>
